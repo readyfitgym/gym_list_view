@@ -7,7 +7,7 @@ const requestOptions = {
   redirect: "follow"
 };
 
-fetch("https://registration-backend-pfjf.onrender.com/list", requestOptions)
+fetch("https://gym-backend-kckd.onrender.com/list", requestOptions)
   .then(response => response.json())
   .then(data => renderMembers(data))
   .catch(error => {
